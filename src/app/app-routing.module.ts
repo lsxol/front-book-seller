@@ -9,6 +9,7 @@ import {NotFoundComponent} from "./error/not-found/not-found.component";
 import {UnauthorizedComponent} from "./error/unauthorized/unauthorized.component";
 import {AuthGuard} from "./guards/auth.guard";
 import {Role} from "./models/role.enum";
+import {OpisComponent} from "./guest/opis/opis.component";
 
 const routes: Routes = [
 
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
+  {path: 'opis', component: OpisComponent},
 
   {
     path: 'profile',
