@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const root = __dirname + "/dist/angular-book-seller";
+const root = __dirname + "/dist/front-angular";
 
 app.use(express.static(root));
 
